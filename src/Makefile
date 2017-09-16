@@ -8,9 +8,9 @@ OBJPATH		= ../obj
 LDFLAGS         += -lRTIMULib
 CFLAGS          = -I$(INCPATH)
 
-_DEPS		= test.h
+_DEPS		= 
 DEPS		= $(patsubst %,$(INCPATH)/%,$(_DEPS))
-_OBJ		= main.o test.o
+_OBJ		= main.o
 OBJ		= $(patsubst %,$(OBJPATH)/%,$(_OBJ))
 
 $(OBJPATH)/%.o : %.cpp $(DEPS)
