@@ -3,7 +3,7 @@
 // Author      : Bence
 // Version     :
 // Copyright   : 
-// Description : Hello World in C++, Ansi-style
+// Description : Main function for the project piVR
 //============================================================================
 
 #include "RTIMULib.h"
