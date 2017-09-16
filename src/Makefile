@@ -1,0 +1,2 @@
+LDFLAGS += -lRTIMULib
+CC = g++
