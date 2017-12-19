@@ -5,7 +5,7 @@ OUT		= piVR
 INCPATH		= ../include
 OBJPATH		= ../obj
 
-LDFLAGS         += -lRTIMULib
+LDFLAGS         += -lRTIMULib -lbluetooth
 CFLAGS          = -I$(INCPATH)
 
 _DEPS		= 
